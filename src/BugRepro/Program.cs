@@ -59,7 +59,7 @@ AnsiConsole.Render(tree);
 
 var analyzerManager = new AnalyzerManager(null, new AnalyzerManagerOptions
 {
-    LogWriter = Console.Out
+    //LogWriter = Console.Out
 });
 
 var projectAnalyzer = analyzerManager.GetProject(consoleApp.ProjectInstance.FullPath);
